@@ -1,0 +1,16 @@
+{
+  "name": "@lexxxell/callback-scheduler",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "LexxXell",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn compile && node dist/test.js",
+    "compile": "yarn tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  }
+}
